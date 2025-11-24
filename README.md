@@ -1,4 +1,3 @@
-````markdown
 # Devices REST API
 
 A production-ready REST API for managing device resources, built with NestJS, TypeScript, PostgreSQL, and Redis.
