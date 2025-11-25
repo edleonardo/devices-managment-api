@@ -1,7 +1,7 @@
 {
   "name": "devices-management-api",
   "version": "1.0.0",
-  "description": "REST API for device resource management with caching and tracing",
+  "description": "REST API for device resource management",
   "author": "Eduardo Alves",
   "scripts": {
     "build": "nest build",
