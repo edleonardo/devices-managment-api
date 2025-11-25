@@ -56,7 +56,7 @@ A production-ready REST API for managing device resources, built with NestJS, Ty
 git clone
 cd devices-api
 ```
-````
+
 
 2. **Create environment file**
 
@@ -127,9 +127,11 @@ curl -X POST http://localhost:3000/devices \
     "brand": "Apple",
     "state": "available"
   }'
+````
 
 **Get All Devices**
-```bash
+
+````bash
 curl http://localhost:3000/devices
 ````
 
@@ -223,10 +225,14 @@ npm run test:e2e
 ### Test Structure
 
 ```
-src/devices/__tests__/
-├── devices.controller.spec.ts  # Controller unit tests
-├── devices.service.spec.ts     # Service unit tests
-└── devices.e2e.spec.ts        # End-to-end integration tests
+devices-api/
+├── src/
+|  ├── devices/
+|  |  ├── __tests__/
+|  |  |  ├── devices.controller.spec.ts  # Controller unit tests
+|  |  |  ├── devices.service.spec.ts     # Service unit tests
+|── test/ 
+└  └── devices.e2e.spec.ts        # End-to-end integration tests
 ```
 
 ## Project Structure
